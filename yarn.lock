@@ -9947,6 +9947,7 @@ fsevents@~2.1.2:
     eslint-plugin-vue: ^6.1.2
     quasar: ^1.0.0
     typescript: ^3.8.3
+    vue: ^2.6.11
     vue-i18n: ^8.0.0
   languageName: unknown
   linkType: soft
@@ -12440,7 +12441,7 @@ typescript@^3.8.3:
   languageName: node
   linkType: hard
 
-"vue@npm:2.6.11":
+"vue@npm:2.6.11, vue@npm:^2.6.11":
   version: 2.6.11
   resolution: "vue@npm:2.6.11"
   checksum: 2/ba12fa9632c3fa4e46eec0fffeb6ec03fae6eb999bf502628e0e1c4312a3f5ed62e34378b80a4f21c00fe20d772435f56e87f7c0ee761b47cb2999fb6f7fb722

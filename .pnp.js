@@ -82,6 +82,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=270b6c"
       ],
       [
+        "vue",
+        "npm:2.6.11"
+      ],
+      [
         "vue-i18n",
         "npm:8.15.6"
       ]
@@ -106,6 +110,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-vue", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:6.2.2"],
             ["quasar", "npm:1.9.11"],
             ["typescript", "patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=270b6c"],
+            ["vue", "npm:2.6.11"],
             ["vue-i18n", "npm:8.15.6"]
           ],
           "linkType": "SOFT",
@@ -11273,6 +11278,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-vue", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:6.2.2"],
             ["quasar", "npm:1.9.11"],
             ["typescript", "patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=270b6c"],
+            ["vue", "npm:2.6.11"],
             ["vue-i18n", "npm:8.15.6"]
           ],
           "linkType": "SOFT",
