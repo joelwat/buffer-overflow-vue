@@ -11,13 +11,14 @@ module.exports = {
   },
 
   extends: [
-    'airbnb-base',
     // Uncomment any of the lines below to choose desired strictness,
     // but leave only one uncommented!
     // See https://eslint.vuejs.org/rules/#available-rules
-    'plugin:vue/essential' // Priority A: Essential (Error Prevention)
+    // 'plugin:vue/essential' // Priority A: Essential (Error Prevention)
     // 'plugin:vue/strongly-recommended' // Priority B: Strongly Recommended (Improving Readability)
-    // 'plugin:vue/recommended' // Priority C: Recommended (Minimizing Arbitrary Choices and Cognitive Overhead)
+    'plugin:vue/recommended', // Priority C: Recommended (Minimizing Arbitrary Choices and Cognitive Overhead)
+    '@vue/airbnb',
+    '@vue/typescript/recommended'
   ],
 
   // required to lint *.vue files
