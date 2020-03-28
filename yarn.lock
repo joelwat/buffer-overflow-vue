@@ -1633,6 +1633,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^13.9.5":
+  version: 13.9.5
+  resolution: "@types/node@npm:13.9.5"
+  checksum: 2/8cbe18b1f55197573b112aef21250f09fa3eb0e83aa22dcff87c62be54fe78288aeb1385b2bfa013ece29698a339246743e5ba49af9e0168bcfae76abe3bb076
+  languageName: node
+  linkType: hard
+
 "@types/q@npm:^1.5.1":
   version: 1.5.2
   resolution: "@types/q@npm:1.5.2"
@@ -9930,6 +9937,7 @@ fsevents@~2.1.2:
     "@quasar/app": ^1.0.0
     "@quasar/extras": ^1.0.0
     "@types/jest": ^25.1.4
+    "@types/node": ^13.9.5
     axios: ^0.18.1
     babel-eslint: ^10.0.1
     eslint: ^6.8.0

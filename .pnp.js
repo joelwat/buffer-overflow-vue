@@ -42,6 +42,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:25.1.4"
       ],
       [
+        "@types/node",
+        "npm:13.9.5"
+      ],
+      [
         "axios",
         "npm:0.18.1"
       ],
@@ -92,6 +96,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@quasar/app", "npm:1.6.0"],
             ["@quasar/extras", "npm:1.6.0"],
             ["@types/jest", "npm:25.1.4"],
+            ["@types/node", "npm:13.9.5"],
             ["axios", "npm:0.18.1"],
             ["babel-eslint", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:10.1.0"],
             ["eslint", "npm:6.8.0"],
@@ -2008,6 +2013,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-13.9.3-8fb3245332-2.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:13.9.3"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:13.9.5", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-13.9.5-ea997862ab-2.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:13.9.5"]
           ],
           "linkType": "HARD",
         }]
@@ -11251,6 +11263,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@quasar/app", "npm:1.6.0"],
             ["@quasar/extras", "npm:1.6.0"],
             ["@types/jest", "npm:25.1.4"],
+            ["@types/node", "npm:13.9.5"],
             ["axios", "npm:0.18.1"],
             ["babel-eslint", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:10.1.0"],
             ["eslint", "npm:6.8.0"],
