@@ -38,6 +38,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:1.6.0"
       ],
       [
+        "@types/jest",
+        "npm:25.1.4"
+      ],
+      [
         "axios",
         "npm:0.18.1"
       ],
@@ -87,6 +91,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@quasar/app", "npm:1.6.0"],
             ["@quasar/extras", "npm:1.6.0"],
+            ["@types/jest", "npm:25.1.4"],
             ["axios", "npm:0.18.1"],
             ["babel-eslint", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:10.1.0"],
             ["eslint", "npm:6.8.0"],
@@ -1578,6 +1583,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@jest/types", [
+        ["npm:25.1.0", {
+          "packageLocation": "./.yarn/cache/@jest-types-npm-25.1.0-f789af4f34-2.zip/node_modules/@jest/types/",
+          "packageDependencies": [
+            ["@jest/types", "npm:25.1.0"],
+            ["@types/istanbul-lib-coverage", "npm:2.0.1"],
+            ["@types/istanbul-reports", "npm:1.1.1"],
+            ["@types/yargs", "npm:15.0.4"],
+            ["chalk", "npm:3.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@nodelib/fs.scandir", [
         ["npm:2.1.3", {
           "packageLocation": "./.yarn/cache/@nodelib-fs.scandir-npm-2.1.3-92e0b8f0d5-2.zip/node_modules/@nodelib/fs.scandir/",
@@ -1913,6 +1931,47 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/connect", "npm:3.4.33"],
             ["@types/http-proxy", "npm:1.17.4"],
             ["@types/node", "npm:13.9.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/istanbul-lib-coverage", [
+        ["npm:2.0.1", {
+          "packageLocation": "./.yarn/cache/@types-istanbul-lib-coverage-npm-2.0.1-c8b87e4b03-2.zip/node_modules/@types/istanbul-lib-coverage/",
+          "packageDependencies": [
+            ["@types/istanbul-lib-coverage", "npm:2.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/istanbul-lib-report", [
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/@types-istanbul-lib-report-npm-3.0.0-50de3e6b3b-2.zip/node_modules/@types/istanbul-lib-report/",
+          "packageDependencies": [
+            ["@types/istanbul-lib-report", "npm:3.0.0"],
+            ["@types/istanbul-lib-coverage", "npm:2.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/istanbul-reports", [
+        ["npm:1.1.1", {
+          "packageLocation": "./.yarn/cache/@types-istanbul-reports-npm-1.1.1-380bb9d636-2.zip/node_modules/@types/istanbul-reports/",
+          "packageDependencies": [
+            ["@types/istanbul-reports", "npm:1.1.1"],
+            ["@types/istanbul-lib-coverage", "npm:2.0.1"],
+            ["@types/istanbul-lib-report", "npm:3.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/jest", [
+        ["npm:25.1.4", {
+          "packageLocation": "./.yarn/cache/@types-jest-npm-25.1.4-7c4aaf9cf1-2.zip/node_modules/@types/jest/",
+          "packageDependencies": [
+            ["@types/jest", "npm:25.1.4"],
+            ["jest-diff", "npm:25.1.0"],
+            ["pretty-format", "npm:25.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4998,6 +5057,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["diff-sequences", [
+        ["npm:25.1.0", {
+          "packageLocation": "./.yarn/cache/diff-sequences-npm-25.1.0-35f2b54738-2.zip/node_modules/diff-sequences/",
+          "packageDependencies": [
+            ["diff-sequences", "npm:25.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["diffie-hellman", [
         ["npm:5.0.3", {
           "packageLocation": "./.yarn/cache/diffie-hellman-npm-5.0.3-cbef8f3171-2.zip/node_modules/diffie-hellman/",
@@ -7998,6 +8066,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["jest-diff", [
+        ["npm:25.1.0", {
+          "packageLocation": "./.yarn/cache/jest-diff-npm-25.1.0-da9321ef86-2.zip/node_modules/jest-diff/",
+          "packageDependencies": [
+            ["jest-diff", "npm:25.1.0"],
+            ["chalk", "npm:3.0.0"],
+            ["diff-sequences", "npm:25.1.0"],
+            ["jest-get-type", "npm:25.1.0"],
+            ["pretty-format", "npm:25.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["jest-get-type", [
+        ["npm:25.1.0", {
+          "packageLocation": "./.yarn/cache/jest-get-type-npm-25.1.0-9ad7fe8a20-2.zip/node_modules/jest-get-type/",
+          "packageDependencies": [
+            ["jest-get-type", "npm:25.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["jest-worker", [
         ["npm:25.1.0", {
           "packageLocation": "./.yarn/cache/jest-worker-npm-25.1.0-3e76b6b8a3-2.zip/node_modules/jest-worker/",
@@ -10944,6 +11034,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["pretty-format", [
+        ["npm:25.1.0", {
+          "packageLocation": "./.yarn/cache/pretty-format-npm-25.1.0-b10baea8e2-2.zip/node_modules/pretty-format/",
+          "packageDependencies": [
+            ["pretty-format", "npm:25.1.0"],
+            ["@jest/types", "npm:25.1.0"],
+            ["ansi-regex", "npm:5.0.0"],
+            ["ansi-styles", "npm:4.2.1"],
+            ["react-is", "npm:16.13.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["private", [
         ["npm:0.1.8", {
           "packageLocation": "./.yarn/cache/private-npm-0.1.8-1df19be5d6-2.zip/node_modules/private/",
@@ -11147,6 +11250,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["quasar-test-cli", "workspace:."],
             ["@quasar/app", "npm:1.6.0"],
             ["@quasar/extras", "npm:1.6.0"],
+            ["@types/jest", "npm:25.1.4"],
             ["axios", "npm:0.18.1"],
             ["babel-eslint", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:10.1.0"],
             ["eslint", "npm:6.8.0"],
@@ -11251,6 +11355,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ini", "npm:1.3.5"],
             ["minimist", "npm:1.2.5"],
             ["strip-json-comments", "npm:2.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["react-is", [
+        ["npm:16.13.1", {
+          "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-2.zip/node_modules/react-is/",
+          "packageDependencies": [
+            ["react-is", "npm:16.13.1"]
           ],
           "linkType": "HARD",
         }]

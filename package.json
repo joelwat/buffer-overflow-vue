@@ -8,7 +8,7 @@
   "author": "Joel Watson <joelwat@gmail.com>",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.vue src",
+    "lint": "eslint --ext .ts,.vue src",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",
+    "@types/jest": "^25.1.4",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
