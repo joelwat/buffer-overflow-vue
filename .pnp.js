@@ -46,6 +46,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:13.9.5"
       ],
       [
+        "@vue/eslint-config-airbnb",
+        "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:5.0.2"
+      ],
+      [
         "axios",
         "npm:0.18.1"
       ],
@@ -101,6 +105,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@quasar/extras", "npm:1.6.0"],
             ["@types/jest", "npm:25.1.4"],
             ["@types/node", "npm:13.9.5"],
+            ["@vue/eslint-config-airbnb", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:5.0.2"],
             ["axios", "npm:0.18.1"],
             ["babel-eslint", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:10.1.0"],
             ["eslint", "npm:6.8.0"],
@@ -2185,6 +2190,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@vue/eslint-config-airbnb", [
+        ["virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:5.0.2", {
+          "packageLocation": "./.yarn/$$virtual/@vue-eslint-config-airbnb-virtual-52158cdcdc/0/cache/@vue-eslint-config-airbnb-npm-5.0.2-1d3ae9f107-2.zip/node_modules/@vue/eslint-config-airbnb/",
+          "packageDependencies": [
+            ["@vue/eslint-config-airbnb", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:5.0.2"],
+            ["@vue/cli-service", null],
+            ["eslint", "npm:6.8.0"],
+            ["eslint-config-airbnb-base", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:14.1.0"],
+            ["eslint-import-resolver-node", "npm:0.3.3"],
+            ["eslint-import-resolver-webpack", "virtual:52158cdcdc520b4922d9c65370be2e86e16b0aa62f0c1e98b9bf36ff8fea828a5d39eba68f7d4160611ddd5cb7f47b6025d63090cf170ece5c2014e6b07e14ff#npm:0.11.1"],
+            ["eslint-plugin-import", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:2.20.1"]
+          ],
+          "packagePeers": [
+            "@vue/cli-service",
+            "eslint",
+            "eslint-plugin-import"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@vue/preload-webpack-plugin", [
         ["virtual:2087b88639cc285f28f60d7991a276aaa87c1a710fdfe9998eb913e3dca83313c5ea9b28a5e33a971312b42bfdaf7601fe0c0de74775ba28a1d3c662f6f12472#npm:1.1.1", {
           "packageLocation": "./.yarn/$$virtual/@vue-preload-webpack-plugin-virtual-dee3ac27d6/0/cache/@vue-preload-webpack-plugin-npm-1.1.1-bd4af95597-2.zip/node_modules/@vue/preload-webpack-plugin/",
@@ -2714,6 +2739,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/arr-union-npm-3.1.0-853ada9729-2.zip/node_modules/arr-union/",
           "packageDependencies": [
             ["arr-union", "npm:3.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["array-find", [
+        ["npm:1.0.0", {
+          "packageLocation": "./.yarn/cache/array-find-npm-1.0.0-e6a7eed080-2.zip/node_modules/array-find/",
+          "packageDependencies": [
+            ["array-find", "npm:1.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -5413,6 +5447,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["enhanced-resolve", [
+        ["npm:0.9.1", {
+          "packageLocation": "./.yarn/cache/enhanced-resolve-npm-0.9.1-77770f8601-2.zip/node_modules/enhanced-resolve/",
+          "packageDependencies": [
+            ["enhanced-resolve", "npm:0.9.1"],
+            ["graceful-fs", "npm:4.2.3"],
+            ["memory-fs", "npm:0.2.0"],
+            ["tapable", "npm:0.1.10"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:4.1.1", {
           "packageLocation": "./.yarn/cache/enhanced-resolve-npm-4.1.1-963440ab7f-2.zip/node_modules/enhanced-resolve/",
           "packageDependencies": [
@@ -5616,6 +5660,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-import-resolver-node", "npm:0.3.3"],
             ["debug", "virtual:aa99aa7f31525bee8c7e41e64637276b6b4ad2aac4bb001b7bf5f460948366fbecd74eaaf1d13663a540dc02645d9b822b1fbca43c94cea3fc52899aaddb62a3#npm:2.6.9"],
             ["resolve", "patch:resolve@npm%3A1.15.1#builtin<compat/resolve>::version=1.15.1&hash=8fccd0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["eslint-import-resolver-webpack", [
+        ["virtual:52158cdcdc520b4922d9c65370be2e86e16b0aa62f0c1e98b9bf36ff8fea828a5d39eba68f7d4160611ddd5cb7f47b6025d63090cf170ece5c2014e6b07e14ff#npm:0.11.1", {
+          "packageLocation": "./.yarn/$$virtual/eslint-import-resolver-webpack-virtual-51a5a71186/0/cache/eslint-import-resolver-webpack-npm-0.11.1-18a4dfeabd-2.zip/node_modules/eslint-import-resolver-webpack/",
+          "packageDependencies": [
+            ["eslint-import-resolver-webpack", "virtual:52158cdcdc520b4922d9c65370be2e86e16b0aa62f0c1e98b9bf36ff8fea828a5d39eba68f7d4160611ddd5cb7f47b6025d63090cf170ece5c2014e6b07e14ff#npm:0.11.1"],
+            ["array-find", "npm:1.0.0"],
+            ["debug", "virtual:aa99aa7f31525bee8c7e41e64637276b6b4ad2aac4bb001b7bf5f460948366fbecd74eaaf1d13663a540dc02645d9b822b1fbca43c94cea3fc52899aaddb62a3#npm:2.6.9"],
+            ["enhanced-resolve", "npm:0.9.1"],
+            ["eslint-plugin-import", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:2.20.1"],
+            ["find-root", "npm:1.1.0"],
+            ["has", "npm:1.0.3"],
+            ["interpret", "npm:1.2.0"],
+            ["lodash", "npm:4.17.15"],
+            ["node-libs-browser", "npm:2.2.1"],
+            ["resolve", "patch:resolve@npm%3A1.15.1#builtin<compat/resolve>::version=1.15.1&hash=8fccd0"],
+            ["semver", "npm:5.7.1"],
+            ["webpack", null]
+          ],
+          "packagePeers": [
+            "eslint-plugin-import",
+            "webpack"
           ],
           "linkType": "HARD",
         }]
@@ -6191,6 +6260,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["commondir", "npm:1.0.1"],
             ["make-dir", "npm:3.0.2"],
             ["pkg-dir", "npm:4.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["find-root", [
+        ["npm:1.1.0", {
+          "packageLocation": "./.yarn/cache/find-root-npm-1.1.0-a16a94005f-2.zip/node_modules/find-root/",
+          "packageDependencies": [
+            ["find-root", "npm:1.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -7461,6 +7539,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["internal-ip", "npm:4.3.0"],
             ["default-gateway", "npm:4.2.0"],
             ["ipaddr.js", "npm:1.9.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["interpret", [
+        ["npm:1.2.0", {
+          "packageLocation": "./.yarn/cache/interpret-npm-1.2.0-273dc5c9c5-2.zip/node_modules/interpret/",
+          "packageDependencies": [
+            ["interpret", "npm:1.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -8866,6 +8953,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["memory-fs", [
+        ["npm:0.2.0", {
+          "packageLocation": "./.yarn/cache/memory-fs-npm-0.2.0-4ba3d96613-2.zip/node_modules/memory-fs/",
+          "packageDependencies": [
+            ["memory-fs", "npm:0.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:0.4.1", {
           "packageLocation": "./.yarn/cache/memory-fs-npm-0.4.1-0a5f9b8954-2.zip/node_modules/memory-fs/",
           "packageDependencies": [
@@ -11269,6 +11363,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@quasar/extras", "npm:1.6.0"],
             ["@types/jest", "npm:25.1.4"],
             ["@types/node", "npm:13.9.5"],
+            ["@vue/eslint-config-airbnb", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:5.0.2"],
             ["axios", "npm:0.18.1"],
             ["babel-eslint", "virtual:43ec9890c287bb0b61736173e6029f968cec96bc675697c4c2f2ab92c350d7ef51651129db086d160c68151f26e71d26993003d8d574eace1336254c0b8c3c77#npm:10.1.0"],
             ["eslint", "npm:6.8.0"],
@@ -13068,6 +13163,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["tapable", [
+        ["npm:0.1.10", {
+          "packageLocation": "./.yarn/cache/tapable-npm-0.1.10-94511b25cb-2.zip/node_modules/tapable/",
+          "packageDependencies": [
+            ["tapable", "npm:0.1.10"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:1.1.3", {
           "packageLocation": "./.yarn/cache/tapable-npm-1.1.3-f1c2843426-2.zip/node_modules/tapable/",
           "packageDependencies": [
