@@ -9,6 +9,6 @@
 
 <script lang="ts">
 export default {
-  name: 'PageIndex'
-}
+  name: 'PageIndex',
+};
 </script>
