@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router';
+import VueRouter, { RouterOptions } from 'vue-router';
 
 import routes from './routes';
 
@@ -15,16 +15,18 @@ Vue.use(VueRouter);
  */
 
 export default function (/* { store, ssrContext } */) {
-  const Router = new VueRouter({
+  const routerOptions: RouterOptions = {
     scrollBehavior: () => ({ x: 0, y: 0 }),
     routes,
 
     // Leave these as they are and change in quasar.conf.js instead!
     // quasar.conf.js -> build -> vueRouterMode
     // quasar.conf.js -> build -> publicPath
-    mode: process.env.VUE_ROUTER_MODE,
+    mode: process.env.VUE_ROUTER_MODE as RouterOptions['mode'],
     base: process.env.VUE_ROUTER_BASE,
-  });
+  };
+
+  const Router = new VueRouter(routerOptions);
 
   return Router;
 }
