@@ -12,18 +12,18 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.6.1",
+    "@quasar/extras": "^1.6.4",
     "axios": "^0.19.2",
-    "quasar": "^1.9.13",
+    "quasar": "^1.9.14",
     "typescript": "^3.8.3",
     "vue": "^2.6.11",
-    "vue-i18n": "^8.0.0",
+    "vue-i18n": "^8.17.0",
     "vue-router": "^3.1.6"
   },
   "devDependencies": {
-    "@quasar/app": "^1.6.1",
+    "@quasar/app": "^1.6.2",
     "@types/jest": "^25.2.1",
-    "@types/node": "^13.11.0",
+    "@types/node": "^13.11.1",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "@vue/cli-service": "^4.3.1",
