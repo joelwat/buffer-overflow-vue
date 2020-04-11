@@ -26,11 +26,25 @@
 </template>
 
 <script lang="ts">
+import {
+  QBtn,
+  QHeader,
+  QLayout,
+  QPageContainer,
+  QToolbar,
+  QToolbarTitle,
+} from 'quasar';
 
 export default {
   name: 'MainLayout',
 
   components: {
+    QBtn,
+    QHeader,
+    QLayout,
+    QPageContainer,
+    QToolbar,
+    QToolbarTitle,
   },
 
   data() {
