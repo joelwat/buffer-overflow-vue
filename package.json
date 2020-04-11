@@ -1,6 +1,6 @@
 {
   "name": "buffer-overflow-vue",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Quasar Framework app",
   "productName": "Quasar App",
   "cordovaId": "org.cordova.quasar.app",
