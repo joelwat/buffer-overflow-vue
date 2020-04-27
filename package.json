@@ -24,7 +24,7 @@
     "@quasar/app": "^1.7.4",
     "@types/jest": "^25.2.1",
     "@types/node": "^13.13.4",
-    "@typescript-eslint/parser": "^2.29.0",
+    "@typescript-eslint/parser": "^2.30.0",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@vue/cli-service": "^4.3.1",
     "@vue/composition-api": "^0.5.0",
