@@ -24,8 +24,8 @@
     "@quasar/app": "^1.7.4",
     "@types/jest": "^25.2.1",
     "@types/node": "^13.13.4",
-    "@typescript-eslint/parser": "^2.30.0",
     "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
     "@vue/cli-service": "^4.3.1",
     "@vue/composition-api": "^0.5.0",
     "@vue/eslint-config-airbnb": "^5.0.2",
@@ -40,7 +40,7 @@
   "engines": {
     "node": ">= 12.16.1",
     "npm": ">= 6.13.4",
-    "yarn": ">= 1.22.4 < 2.0.0"
+    "yarn": ">= 1.22.4"
   },
   "browserslist": [
     "last 1 version, not dead, ie >= 11"
