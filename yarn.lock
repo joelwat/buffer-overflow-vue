@@ -955,9 +955,9 @@
     babel-plugin-module-resolver "^4.0.0"
     babel-plugin-transform-imports "^1.0.0"
 
-"@quasar/extras@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.7.0.tgz#150ebdabfe532cefb2df43efe0edb14f9da74a2f"
+"@quasar/extras@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.8.0.tgz#ef53ad30376daaf02d4719013201e84d795122b3"
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
