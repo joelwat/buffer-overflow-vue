@@ -7165,9 +7165,9 @@ qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
 
-quasar@^1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.11.1.tgz#fa6a3a1c7ed9212f5e604484282da133dbf0a5f9"
+quasar@^1.11.2:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.11.2.tgz#716fcbcbdade9393121d2c61472281d0c0d75031"
 
 query-string@^4.1.0:
   version "4.3.4"
