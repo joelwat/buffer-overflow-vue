@@ -18,7 +18,7 @@
     "typescript": "^3.9.2",
     "vue": "^2.6.11",
     "vue-i18n": "^8.17.7",
-    "vue-router": "^3.1.6"
+    "vue-router": "^3.2.0"
   },
   "devDependencies": {
     "@quasar/app": "^1.8.6",
