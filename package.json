@@ -23,7 +23,7 @@
   "devDependencies": {
     "@quasar/app": "^1.9.6",
     "@types/jest": "^25.2.3",
-    "@types/node": "^14.0.11",
+    "@types/node": "^14.0.12",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "@vue/cli-service": "^4.4.1",
