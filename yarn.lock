@@ -864,9 +864,9 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@positron/stack-trace/-/stack-trace-1.0.0.tgz#14fcc712a530038ef9be1ce6952315a839f466a8"
 
-"@quasar/app@^2.0.5":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-2.0.5.tgz#d3051088d9a9dc10ab62fcb8f71802d6d21ac0aa"
+"@quasar/app@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@quasar/app/-/app-2.0.6.tgz#4462da617b3b1d4c405bd57bc8a92d9b4109eace"
   dependencies:
     "@quasar/babel-preset-app" "2.0.1"
     "@quasar/fastclick" "1.1.4"
