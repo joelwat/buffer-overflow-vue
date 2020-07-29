@@ -975,9 +975,9 @@
     core-js "^3.6.5"
     core-js-compat "^3.6.5"
 
-"@quasar/extras@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.9.2.tgz#088b4c6e2d8d0ae625cad311e9c0f9502cab11e2"
+"@quasar/extras@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.9.3.tgz#dba0c398dd64709a1c0941d0e8dff4655abc8728"
 
 "@quasar/fastclick@1.1.4":
   version "1.1.4"
