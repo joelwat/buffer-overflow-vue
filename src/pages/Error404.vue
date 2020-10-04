@@ -2,10 +2,12 @@
   <div class="fixed-center text-center">
     <p>
       <img
+        alt="404 - Page Not Found"
         src="~assets/sad.svg"
         style="width:30vw;max-width:150px;"
       >
     </p>
+
     <p class="text-faded">
       Sorry, nothing here...<strong>(404)</strong>
     </p>
@@ -19,7 +21,11 @@
 </template>
 
 <script lang="ts">
-export default {
+import {
+  defineComponent,
+} from '@vue/composition-api';
+
+export default defineComponent({
   name: 'Error404',
-};
+});
 </script>
