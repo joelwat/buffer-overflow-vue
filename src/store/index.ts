@@ -1,21 +1,27 @@
-import Vue from 'vue';
+import { store } from 'quasar/wrappers';
 import Vuex from 'vuex';
 
 import * as modules from './modules';
 
-Vue.use(Vuex);
+// import example from './module-example';
+// import { ExampleStateInterface } from './module-example/state';
 
 /*
  * If not building with SSR mode, you can
- * directly export the Store instantiation;
- *
- * The function below can be async too; either use
- * async/await or return a Promise which resolves
- * with the Store instance.
+ * directly export the Store instantiation
  */
 
-export default function (/* { ssrContext } */) {
-  const Store = new Vuex.Store({
+export interface StateInterface {
+  // Define your own store structure, using submodules if needed
+  // example: ExampleStateInterface;
+  // Declared as unknown to avoid linting issue. Best to strongly type as per the line above.
+  example: unknown;
+}
+
+export default store(({ Vue }) => {
+  Vue.use(Vuex);
+
+  const Store = new Vuex.Store<StateInterface>({
     modules,
 
     // enable strict mode (adds overhead!)
@@ -24,4 +30,4 @@ export default function (/* { ssrContext } */) {
   });
 
   return Store;
-}
+});
