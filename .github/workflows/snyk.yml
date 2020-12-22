@@ -36,7 +36,7 @@ jobs:
       - name: Debugging
         run: |
           echo ${{ secrets.SNYK_TOKEN }};
-          ls -l $HOME/secrets/
+          ls -la $HOME
 
       - name: Run Snyk test
         uses: snyk/actions@0.3.0
