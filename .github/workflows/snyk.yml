@@ -33,6 +33,9 @@ jobs:
       - run: git checkout HEAD^2
         if: ${{ github.event_name == 'pull_request' }}
 
+      - name: Debugging
+        run: echo "${{ secrets.SNYK_TOKEN }}
+
       - name: Run Snyk test
         uses: snyk/actions@0.3.0
         with:
