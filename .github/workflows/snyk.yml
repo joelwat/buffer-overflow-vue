@@ -13,7 +13,7 @@ on:
     - cron: "15 8 * * *" # 12:15 am PST
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch: Run
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -32,12 +32,6 @@ jobs:
           # the head of the pull request instead of the merge commit.
       - run: git checkout HEAD^2
         if: ${{ github.event_name == 'pull_request' }}
-
-      - name: Debugging
-        run: |
-          echo "${{ secrets.SNYK_TOKEN }}";
-          echo ${{ secrets.TEST }};
-          echo "${{ secrets.TEST }}"
 
       - name: Run Snyk test
         uses: snyk/actions@0.3.0
