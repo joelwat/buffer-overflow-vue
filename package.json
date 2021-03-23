@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@quasar/extras": "^1.9.13",
-    "@vue/composition-api": "^1.0.0-beta.25",
+    "@vue/composition-api": "^1.0.0-rc.5",
     "axios": "^0.21.1",
     "core-js": "3.8.2",
     "quasar": "^1.15.0",
