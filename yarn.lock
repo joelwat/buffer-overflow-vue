@@ -1468,9 +1468,9 @@
   optionalDependencies:
     prettier "^1.18.2"
 
-"@vue/composition-api@^1.0.0-rc.5":
-  version "1.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.0.0-rc.5.tgz#9b857743dd2692073b6df90fa2cfb9a75a1bb2f6"
+"@vue/composition-api@^1.0.0-rc.6":
+  version "1.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@vue/composition-api/-/composition-api-1.0.0-rc.6.tgz#21ce2c169dd4ff17a5bf60c6e98863dff1a36540"
   dependencies:
     tslib "^2.1.0"
 
