@@ -4209,9 +4209,9 @@ fork-ts-checker-webpack-plugin@4.1.6:
     tapable "^1.0.0"
     worker-rpc "^0.1.0"
 
-fork-ts-checker-webpack-plugin@^6.2.4:
-  version "6.2.4"
-  resolved "https://registry.yarnpkg.com/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-6.2.4.tgz#f46dc0700820476f260451518b9d545c42277aff"
+fork-ts-checker-webpack-plugin@^6.2.5:
+  version "6.2.5"
+  resolved "https://registry.yarnpkg.com/fork-ts-checker-webpack-plugin/-/fork-ts-checker-webpack-plugin-6.2.5.tgz#09e81ad57ed862c9dd093298550e7f6966ab1a2f"
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@types/json-schema" "^7.0.5"
