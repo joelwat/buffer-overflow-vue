@@ -26,7 +26,7 @@
     "@quasar/app": "^2.2.6",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.0.2",
-    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
     "@vue/cli-service": "^4.5.13",
     "@vue/eslint-config-airbnb": "^5.3.0",
@@ -37,7 +37,7 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-vue": "^7.9.0",
-    "fork-ts-checker-webpack-plugin": "^6.2.6"
+    "fork-ts-checker-webpack-plugin": "^6.2.7"
   },
   "engines": {
     "node": ">= 12.16.1",
