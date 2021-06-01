@@ -12,22 +12,22 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/extras": "^1.10.5",
-    "@vue/composition-api": "^1.0.0-rc.9",
+    "@quasar/extras": "^1.10.6",
+    "@vue/composition-api": "^1.0.0-rc.10",
     "axios": "^0.21.1",
-    "core-js": "3.13.0",
-    "quasar": "^1.15.18",
+    "core-js": "3.13.1",
+    "quasar": "^1.15.19",
     "typescript": "^4.3.2",
     "vue": "^2.6.12",
     "vue-i18n": "^8.24.4",
     "vue-router": "^3.4.9"
   },
   "devDependencies": {
-    "@quasar/app": "^2.2.7",
+    "@quasar/app": "^2.2.8",
     "@types/jest": "^26.0.23",
     "@types/node": "^15.6.1",
-    "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "@typescript-eslint/parser": "^4.25.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
     "@vue/cli-service": "^4.5.13",
     "@vue/eslint-config-airbnb": "^5.3.0",
     "@vue/eslint-config-typescript": "^7.0.0",
@@ -35,7 +35,7 @@
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-loader": "^4.0.2",
-    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-vue": "^7.10.0",
     "fork-ts-checker-webpack-plugin": "^6.2.10"
   },
