@@ -37,7 +37,7 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-vue": "^7.15.0",
-    "fork-ts-checker-webpack-plugin": "^6.2.13"
+    "fork-ts-checker-webpack-plugin": "^6.3.1"
   },
   "engines": {
     "node": ">= 12.16.1",
