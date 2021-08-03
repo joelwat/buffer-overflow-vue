@@ -36,7 +36,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-vue": "^7.15.0",
+    "eslint-plugin-vue": "^7.15.1",
     "fork-ts-checker-webpack-plugin": "^6.3.1"
   },
   "engines": {
