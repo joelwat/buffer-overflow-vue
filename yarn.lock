@@ -1301,10 +1301,10 @@
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.1.tgz#283f669ff76d7b8260df8ab7a4262cc83d988256"
 
-"@types/node@*", "@types/node@^18.0.4":
-  version "18.0.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.4.tgz#48aedbf35efb3af1248e4cd4d792c730290cd5d6"
-  integrity sha512-M0+G6V0Y4YV8cqzHssZpaNCqvYwlCiulmm0PwpNLF55r/+cT8Ol42CHRU1SEaYFH2rTwiiE1aYg/2g2rrtGdPA==
+"@types/node@*", "@types/node@^18.0.6":
+  version "18.0.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.6.tgz#0ba49ac517ad69abe7a1508bc9b3a5483df9d5d7"
+  integrity sha512-/xUq6H2aQm261exT6iZTMifUySEt4GR5KX8eYyY+C4MSNPqSh9oNIP7tz2GLKTlFaiBbgZNxffoR3CVRG+cljw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1600,10 +1600,10 @@
     "@vue/compiler-core" "3.2.4"
     "@vue/shared" "3.2.4"
 
-"@vue/compiler-sfc@2.7.6":
-  version "2.7.6"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-2.7.6.tgz#964615c10ba9098e82479afe19e87068fc72fe46"
-  integrity sha512-W677WEQdXSBEMd0egLtqKxQqmMuLM2zGPKFizjls0SYkEVrQL0ad124j7VbpEU0JLG4j8dp/3OFtvFGCG+grlQ==
+"@vue/compiler-sfc@2.7.7":
+  version "2.7.7"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-2.7.7.tgz#74aebb24c1ebfa22642c70f27ffaeca4dabdf692"
+  integrity sha512-Ah8dIuo6ZVPHTq9+s4rBU/YpJu3vGSNyeOTCrPrVPQnkUfnT5Ig+IKBhePuQWFXguYb2TuEWrEfiiX9DZ3aJlA==
   dependencies:
     "@babel/parser" "^7.18.4"
     postcss "^8.4.14"
@@ -2804,10 +2804,10 @@ core-js-compat@^3.6.5, core-js-compat@^3.9.0, core-js-compat@^3.9.1:
     browserslist "^4.16.6"
     semver "7.0.0"
 
-core-js@3.23.4, core-js@^3.6.5:
-  version "3.23.4"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.4.tgz#92d640faa7f48b90bbd5da239986602cfc402aa6"
-  integrity sha512-vjsKqRc1RyAJC3Ye2kYqgfdThb3zYnx9CrqoCcjMOENMtQPC7ZViBvlDxwYU/2z2NI/IPuiXw5mT4hWhddqjzQ==
+core-js@3.23.5, core-js@^3.6.5:
+  version "3.23.5"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.5.tgz#1f82b0de5eece800827a2f59d597509c67650475"
+  integrity sha512-7Vh11tujtAZy82da4duVreQysIoO2EvVrur7y6IzZkH1IHPSekuDi8Vuw1+YKjkbfWLRD7Nc9ICQ/sIUDutcyg==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -7556,12 +7556,12 @@ vue@3.2.4:
     "@vue/runtime-dom" "3.2.4"
     "@vue/shared" "3.2.4"
 
-vue@^2.7.6:
-  version "2.7.6"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.6.tgz#e0b2dacb8de9a16aa95d1a144b308e67ea216c52"
-  integrity sha512-5hfTjdByl2R9rtGmPzP+31/EURYwpIXhgyhZ+sO1biG3s49iuHVqwC9ZrPTqn22IPISn0UZLF5WwQ4KMMWec2w==
+vue@^2.7.7:
+  version "2.7.7"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.7.7.tgz#e3a966944e461e4abb496c82362e8763e98e6527"
+  integrity sha512-osfkncsGCWqtch+YWYxbqTNQ9hl/UQ6TFRkdmK/VqAjuMpxzr5QotFsYpmJ1AB1ez2LJeIKXDmtMkXUotMOTsA==
   dependencies:
-    "@vue/compiler-sfc" "2.7.6"
+    "@vue/compiler-sfc" "2.7.7"
     csstype "^3.1.0"
 
 watchpack@^2.3.1:
