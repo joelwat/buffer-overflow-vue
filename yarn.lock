@@ -2511,19 +2511,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/eslint-config-airbnb@npm:5.3.0":
-  version: 5.3.0
-  resolution: "@vue/eslint-config-airbnb@npm:5.3.0"
+"@vue/eslint-config-airbnb@npm:6.0.0":
+  version: 6.0.0
+  resolution: "@vue/eslint-config-airbnb@npm:6.0.0"
   dependencies:
-    eslint-config-airbnb-base: ^14.0.0
-    eslint-import-resolver-node: ^0.3.4
-    eslint-import-resolver-webpack: ^0.13.0
-    eslint-plugin-import: ^2.21.2
+    eslint-config-airbnb-base: ^15.0.0
+    eslint-import-resolver-node: ^0.3.6
+    eslint-import-resolver-webpack: ^0.13.2
+    eslint-plugin-import: ^2.25.3
   peerDependencies:
-    "@vue/cli-service": ^3.0.0 || ^4.0.0-0 || ^5.0.0-0
-    eslint: ^5.16.0 || ^6.1.0 || ^7.2.0
-    eslint-plugin-import: ^2.18.2
-  checksum: ba87da6ab6ee92b851d43eb15f5dcb37f30a817cc7a7ffaeaef4c267c4f624e2dd5880fc48a2a4191bd58cdb397d19bb42fb9226f8f58b785d55479325422c1f
+    "@vue/cli-service": ^4.0.0-0 || ^5.0.0-0
+    eslint: ^7.32.0 || ^8.2.0
+    eslint-plugin-import: ^2.25.3
+    eslint-plugin-vuejs-accessibility: ^1.1.0
+  peerDependenciesMeta:
+    "@vue/cli-service":
+      optional: true
+  checksum: 75a737e283133a808941fcef54f08b87591940577b304fc8a85ecab33b3c4d7b01fe85c3985b8f0f2331c3dc28071114ee370b01a461e39f76af15a794964b73
   languageName: node
   linkType: hard
 
@@ -3598,7 +3602,7 @@ __metadata:
     "@typescript-eslint/parser": 4.33.0
     "@vue/cli-service": 5.0.8
     "@vue/composition-api": 1.7.0
-    "@vue/eslint-config-airbnb": 5.3.0
+    "@vue/eslint-config-airbnb": 6.0.0
     "@vue/eslint-config-typescript": 7.0.0
     axios: 0.27.2
     babel-eslint: 10.1.0
@@ -5258,7 +5262,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-base@npm:15.0.0":
+"eslint-config-airbnb-base@npm:15.0.0, eslint-config-airbnb-base@npm:^15.0.0":
   version: 15.0.0
   resolution: "eslint-config-airbnb-base@npm:15.0.0"
   dependencies:
@@ -5273,21 +5277,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-airbnb-base@npm:^14.0.0":
-  version: 14.2.1
-  resolution: "eslint-config-airbnb-base@npm:14.2.1"
-  dependencies:
-    confusing-browser-globals: ^1.0.10
-    object.assign: ^4.1.2
-    object.entries: ^1.1.2
-  peerDependencies:
-    eslint: ^5.16.0 || ^6.8.0 || ^7.2.0
-    eslint-plugin-import: ^2.22.1
-  checksum: 858bea748a3c8685b52fcf2488e6a0b964022f8387f4ee1e69cb707d4fda2a409f09eb8eea658bcd83fae3519967d10208ba7576dd3d3202b8cf0b9d1a6e21eb
-  languageName: node
-  linkType: hard
-
-"eslint-import-resolver-node@npm:^0.3.4, eslint-import-resolver-node@npm:^0.3.6":
+"eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6"
   dependencies:
@@ -5297,9 +5287,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-webpack@npm:^0.13.0":
-  version: 0.13.1
-  resolution: "eslint-import-resolver-webpack@npm:0.13.1"
+"eslint-import-resolver-webpack@npm:^0.13.2":
+  version: 0.13.2
+  resolution: "eslint-import-resolver-webpack@npm:0.13.2"
   dependencies:
     array-find: ^1.0.0
     debug: ^3.2.7
@@ -5307,15 +5297,15 @@ __metadata:
     find-root: ^1.1.0
     has: ^1.0.3
     interpret: ^1.4.0
-    is-core-module: ^2.4.0
-    is-regex: ^1.1.3
+    is-core-module: ^2.7.0
+    is-regex: ^1.1.4
     lodash: ^4.17.21
     resolve: ^1.20.0
     semver: ^5.7.1
   peerDependencies:
     eslint-plugin-import: ">=1.4.0"
     webpack: ">=1.11.0"
-  checksum: 667862c99f78d3fbdeb6ee9b3634ce315ec43d245ca62373621e68d0122142b00c96dcd5180ebb621c80cd8502d6f0a280def542875ea87ef3963b29519181de
+  checksum: 6c40164747bf894a0e34cbc9626566193471062e8809cef7aa8be74e0346c962d03aa7b8f3579a3d348245269860c1f241eba5379ec04acc89daffa4fb6b5f17
   languageName: node
   linkType: hard
 
@@ -5345,7 +5335,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.26.0, eslint-plugin-import@npm:^2.21.2":
+"eslint-plugin-import@npm:2.26.0, eslint-plugin-import@npm:^2.25.3":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
   dependencies:
@@ -6995,7 +6985,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.4.0, is-core-module@npm:^2.8.1":
+"is-core-module@npm:^2.7.0":
+  version: 2.10.0
+  resolution: "is-core-module@npm:2.10.0"
+  dependencies:
+    has: ^1.0.3
+  checksum: 0f3f77811f430af3256fa7bbc806f9639534b140f8ee69476f632c3e1eb4e28a38be0b9d1b8ecf596179c841b53576129279df95e7051d694dac4ceb6f967593
+  languageName: node
+  linkType: hard
+
+"is-core-module@npm:^2.8.1":
   version: 2.9.0
   resolution: "is-core-module@npm:2.9.0"
   dependencies:
@@ -7140,7 +7139,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-regex@npm:^1.0.4, is-regex@npm:^1.1.3":
+"is-regex@npm:^1.0.4":
   version: 1.1.3
   resolution: "is-regex@npm:1.1.3"
   dependencies:
@@ -8652,7 +8651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object.entries@npm:^1.1.2, object.entries@npm:^1.1.5":
+"object.entries@npm:^1.1.5":
   version: 1.1.5
   resolution: "object.entries@npm:1.1.5"
   dependencies:
