@@ -23,7 +23,7 @@
     "vue-router": "3.5.4"
   },
   "devDependencies": {
-    "@quasar/app": "3.1.0",
+    "@quasar/app": "3.3.3",
     "@types/jest": "28.1.8",
     "@types/node": "18.6.1",
     "@typescript-eslint/eslint-plugin": "4.33.0",
