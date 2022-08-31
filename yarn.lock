@@ -3354,7 +3354,7 @@ __metadata:
     eslint-config-airbnb-base: 15.0.0
     eslint-loader: 4.0.2
     eslint-plugin-import: 2.26.0
-    eslint-plugin-vue: 7.20.0
+    eslint-plugin-vue: 9.4.0
     fork-ts-checker-webpack-plugin: 6.3.3
     quasar: 2.7.7
     typescript: 4.7.4
@@ -4312,7 +4312,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.3.2, debug@npm:^4.3.3":
+"debug@npm:4, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -5001,17 +5001,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:7.20.0":
-  version: 7.20.0
-  resolution: "eslint-plugin-vue@npm:7.20.0"
+"eslint-plugin-vue@npm:9.4.0":
+  version: 9.4.0
+  resolution: "eslint-plugin-vue@npm:9.4.0"
   dependencies:
-    eslint-utils: ^2.1.0
+    eslint-utils: ^3.0.0
     natural-compare: ^1.4.0
-    semver: ^6.3.0
-    vue-eslint-parser: ^7.10.0
+    nth-check: ^2.0.1
+    postcss-selector-parser: ^6.0.9
+    semver: ^7.3.5
+    vue-eslint-parser: ^9.0.1
+    xml-name-validator: ^4.0.0
   peerDependencies:
     eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
-  checksum: 7b724ed8317ce3621cfd94235a68af20ec355fca93092cc09ee73fbffcefa69e3c5202b8035aae8e7457df6924dfe713834ae46dee08acdd9316188c47933956
+  checksum: 1eb085e7d52285eff05e4a3f0f4d65619e943eb7e976b0ef59c3adc75bf4a089df8e8cdba223cf27e2623c0fc6b306e3b1ca460d0ce27cc421ca91b7880eb0d8
   languageName: node
   linkType: hard
 
@@ -5032,15 +5035,6 @@ __metadata:
     esrecurse: ^4.3.0
     estraverse: ^5.2.0
   checksum: 9f6e974ab2db641ca8ab13508c405b7b859e72afe9f254e8131ff154d2f40c99ad4545ce326fd9fde3212ff29707102562a4834f1c48617b35d98c71a97fbf3e
-  languageName: node
-  linkType: hard
-
-"eslint-utils@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "eslint-utils@npm:2.1.0"
-  dependencies:
-    eslint-visitor-keys: ^1.1.0
-  checksum: 27500938f348da42100d9e6ad03ae29b3de19ba757ae1a7f4a087bdcf83ac60949bbb54286492ca61fac1f5f3ac8692dd21537ce6214240bf95ad0122f24d71d
   languageName: node
   linkType: hard
 
@@ -5136,7 +5130,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"espree@npm:^9.4.0":
+"espree@npm:^9.3.1, espree@npm:^9.4.0":
   version: 9.4.0
   resolution: "espree@npm:9.4.0"
   dependencies:
@@ -9732,6 +9726,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:^7.3.6":
+  version: 7.3.7
+  resolution: "semver@npm:7.3.7"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 2fa3e877568cd6ce769c75c211beaed1f9fce80b28338cadd9d0b6c40f2e2862bafd62c19a6cff42f3d54292b7c623277bcab8816a2b5521cf15210d43e75232
+  languageName: node
+  linkType: hard
+
 "send@npm:0.17.2":
   version: 0.17.2
   resolution: "send@npm:0.17.2"
@@ -10846,7 +10851,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-eslint-parser@npm:^7.0.0, vue-eslint-parser@npm:^7.10.0":
+"vue-eslint-parser@npm:^7.0.0":
   version: 7.10.0
   resolution: "vue-eslint-parser@npm:7.10.0"
   dependencies:
@@ -10860,6 +10865,23 @@ __metadata:
   peerDependencies:
     eslint: ">=5.0.0"
   checksum: 41866f79517ede12b818a66ad07201b8231101dbb40f632cd2bdf117715dd0441275b11025dae1794cf941f2fe9739e5db52ae4516e491c35b926c276ab29890
+  languageName: node
+  linkType: hard
+
+"vue-eslint-parser@npm:^9.0.1":
+  version: 9.0.3
+  resolution: "vue-eslint-parser@npm:9.0.3"
+  dependencies:
+    debug: ^4.3.4
+    eslint-scope: ^7.1.1
+    eslint-visitor-keys: ^3.3.0
+    espree: ^9.3.1
+    esquery: ^1.4.0
+    lodash: ^4.17.21
+    semver: ^7.3.6
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: 61248eb504b8d0cbc95ed3f7ec6b11b72782cd76e4049798626f9c09031d620691a967231985c79d8ece8b04864797e465b7f47bcf91828e18344ae3691d9066
   languageName: node
   linkType: hard
 
@@ -11376,6 +11398,13 @@ __metadata:
     utf-8-validate:
       optional: true
   checksum: 76f2f90e40344bf18fd544194e7067812fb1372b2a37865678d8f12afe4b478ff2ebc0c7c0aff82cd5e6b66fc43d889eec0f1865c2365d8f7a66d92da7744a77
+  languageName: node
+  linkType: hard
+
+"xml-name-validator@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "xml-name-validator@npm:4.0.0"
+  checksum: af100b79c29804f05fa35aa3683e29a321db9b9685d5e5febda3fa1e40f13f85abc40f45a6b2bf7bee33f68a1dc5e8eaef4cec100a304a9db565e6061d4cb5ad
   languageName: node
   linkType: hard
 
