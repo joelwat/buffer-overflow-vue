@@ -2277,14 +2277,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:2.7.8":
-  version: 2.7.8
-  resolution: "@vue/compiler-sfc@npm:2.7.8"
+"@vue/compiler-sfc@npm:2.7.10":
+  version: 2.7.10
+  resolution: "@vue/compiler-sfc@npm:2.7.10"
   dependencies:
     "@babel/parser": ^7.18.4
     postcss: ^8.4.14
     source-map: ^0.6.1
-  checksum: da0b4b0866224fe2aee376a88c25914da4e73ba9e11e7aa2ed240b99897735b4a988e951dcae9c8f0843216c5a97050bf16e1bb04bf65541444a8bdfedc35b38
+  checksum: f20d79183ed2b9242d2c1ff196ddc9c3c384f541b85ca59543842af098653c3c0732a9b2f28dd031383bb9e02a40a5a001b4c6bbcb12fbd389372225b12b9020
   languageName: node
   linkType: hard
 
@@ -3351,7 +3351,7 @@ __metadata:
     fork-ts-checker-webpack-plugin: 6.3.3
     quasar: 2.7.7
     typescript: 4.7.4
-    vue: 2.7.8
+    vue: 2.7.10
     vue-i18n: 8.27.2
     vue-router: 3.5.4
   languageName: unknown
@@ -10914,13 +10914,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:2.7.8":
-  version: 2.7.8
-  resolution: "vue@npm:2.7.8"
+"vue@npm:2.7.10":
+  version: 2.7.10
+  resolution: "vue@npm:2.7.10"
   dependencies:
-    "@vue/compiler-sfc": 2.7.8
+    "@vue/compiler-sfc": 2.7.10
     csstype: ^3.1.0
-  checksum: 45fc85a13fc027798ad859fe4a5509b54217ae2f129240fc349a799bd4dbc6848ef8fa9968ab7ef7afcb954735882dbfdeb746673aa3f051e4d7ae555c213a1b
+  checksum: 97887eea9ae0c7ec7309dcaed1ac9bb65803af235f63f629fe21df959be3c1b801f8aa7d1e85428624e149e5f47706950d0efe09f19b6a6e3b4d38a6352d5c71
   languageName: node
   linkType: hard
 
