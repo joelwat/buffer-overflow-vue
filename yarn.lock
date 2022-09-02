@@ -2324,6 +2324,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/devtools-api@npm:^6.1.4":
+  version: 6.2.1
+  resolution: "@vue/devtools-api@npm:6.2.1"
+  checksum: 34765af0be9b0cc7e3def73b2792b1514e3c348852c5a7503fe07d013f0e907af6c27c0a32c0637dd748caf37c075af8e53ca3220433e0bd34b6f3405f358272
+  languageName: node
+  linkType: hard
+
 "@vue/eslint-config-airbnb@npm:5.3.0":
   version: 5.3.0
   resolution: "@vue/eslint-config-airbnb@npm:5.3.0"
@@ -3360,7 +3367,7 @@ __metadata:
     typescript: 4.7.4
     vue: 2.7.10
     vue-i18n: 8.27.2
-    vue-router: 3.5.4
+    vue-router: 4.1.5
   languageName: unknown
   linkType: soft
 
@@ -10890,10 +10897,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-router@npm:3.5.4":
-  version: 3.5.4
-  resolution: "vue-router@npm:3.5.4"
-  checksum: 0975860dc849e99935c2bf8dae8e1e2db036736c4d45d6aef2e6c8a111122f0ecbc0aa9a3d434982530d831eadde1c06cf27ca6e2b6a6c21b82f5fd2f25e028c
+"vue-router@npm:4.1.5":
+  version: 4.1.5
+  resolution: "vue-router@npm:4.1.5"
+  dependencies:
+    "@vue/devtools-api": ^6.1.4
+  peerDependencies:
+    vue: ^3.2.0
+  checksum: cafa2f4e14188bca0d4d45e05a901b6ff7bb3933010a6b2c9372bed7fa872bb2e18f1f033b23f540d3a75e1ecd6840b79a5ba5a714de01942d02e1e6cce88dec
   languageName: node
   linkType: hard
 
