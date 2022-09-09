@@ -1719,10 +1719,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/extras@npm:1.15.2":
-  version: 1.15.2
-  resolution: "@quasar/extras@npm:1.15.2"
-  checksum: 45c801520e50e99c05694e0ffd140f44122e1950875ed21edfea9ef5dd2d50c8002d4eea6eae09331f4976064070c6904d5aecd85f8ad7cc401fe2e97eababe7
+"@quasar/extras@npm:1.15.3":
+  version: 1.15.3
+  resolution: "@quasar/extras@npm:1.15.3"
+  checksum: 731f765993a1acb8422ab701c7d7b258b2d11b26a33de2486a00acc93bfb465cb91d36b63ddddeced0349913e4fd708515e31327c9281538960f728400079688
   languageName: node
   linkType: hard
 
@@ -3334,7 +3334,7 @@ __metadata:
   resolution: "buffer-overflow-vue@workspace:."
   dependencies:
     "@quasar/app": 3.3.3
-    "@quasar/extras": 1.15.2
+    "@quasar/extras": 1.15.3
     "@types/jest": 28.1.8
     "@types/node": 18.6.1
     "@typescript-eslint/eslint-plugin": 4.33.0
