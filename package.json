@@ -15,7 +15,7 @@
     "@quasar/extras": "1.15.3",
     "@vue/composition-api": "1.7.0",
     "axios": "0.27.2",
-    "core-js": "3.25.1",
+    "core-js": "3.25.2",
     "quasar": "2.8.3",
     "typescript": "4.8.3",
     "vue": "2.7.10",
