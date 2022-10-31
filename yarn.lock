@@ -3358,7 +3358,7 @@ __metadata:
     quasar: 2.10.0
     typescript: 4.8.4
     vue: 2.7.13
-    vue-i18n: 8.27.2
+    vue-i18n: 8.28.0
     vue-router: 3.6.5
   languageName: unknown
   linkType: soft
@@ -10551,10 +10551,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-i18n@npm:8.27.2":
-  version: 8.27.2
-  resolution: "vue-i18n@npm:8.27.2"
-  checksum: 1a84ec3253b1c5a0b7742d31636ac46ac1c900968f20df859e80b6fbf4545d5e86ac37cfac0e3c5fc056b5c8600cb6f5cec9d455646250677996bc1df8e6a8d2
+"vue-i18n@npm:8.28.0":
+  version: 8.28.0
+  resolution: "vue-i18n@npm:8.28.0"
+  checksum: e7be64e4e1d2d3e90da24c2ac0e81f6abb085193e498d845cb32badb90101968bf4c6c52fe729bd0505b5ba2d99af4b7b8e2c4d896ea18656b104dd11998ae6a
   languageName: node
   linkType: hard
 
