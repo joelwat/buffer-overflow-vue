@@ -2995,7 +2995,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"array.prototype.flatmap@npm:^1.3.1":
+"array.prototype.flatmap@npm:^1.3.0, array.prototype.flatmap@npm:^1.3.1":
   version: 1.3.1
   resolution: "array.prototype.flatmap@npm:1.3.1"
   dependencies:
@@ -3428,7 +3428,7 @@ __metadata:
     eslint: 8.30.0
     eslint-config-airbnb-base: 15.0.0
     eslint-loader: 4.0.2
-    eslint-plugin-import: 2.27.0
+    eslint-plugin-import: 2.27.4
     eslint-plugin-vue: 7.20.0
     fork-ts-checker-webpack-plugin: 6.5.2
     quasar: 2.11.5
@@ -5034,12 +5034,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.27.0":
-  version: 2.27.0
-  resolution: "eslint-plugin-import@npm:2.27.0"
+"eslint-plugin-import@npm:2.27.4":
+  version: 2.27.4
+  resolution: "eslint-plugin-import@npm:2.27.4"
   dependencies:
     array-includes: ^3.1.6
     array.prototype.flat: ^1.3.1
+    array.prototype.flatmap: ^1.3.0
     debug: ^3.2.7
     doctrine: ^2.1.0
     eslint-import-resolver-node: ^0.3.7
@@ -5050,10 +5051,11 @@ __metadata:
     minimatch: ^3.1.2
     object.values: ^1.1.6
     resolve: ^1.22.1
+    semver: ^6.3.0
     tsconfig-paths: ^3.14.1
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-  checksum: 52d1ab48dc7f619285e0686c08e3374752244f64ab5aedb6d6d7186186f646cdc2c7b5df084ad45f1f94fc86d907e9698a0c72b4b5c0b09e3dec40333a930437
+  checksum: e298a9b1fde6d86737520c7da1d851d1facbf1883e29eddfd374a813eb05a647108c072d5c852b6bf535886c435a419f2fee1d6ae3a324d6f7877d957a796e37
   languageName: node
   linkType: hard
 
