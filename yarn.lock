@@ -1777,10 +1777,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasar/extras@npm:1.15.11":
-  version: 1.15.11
-  resolution: "@quasar/extras@npm:1.15.11"
-  checksum: 96a04424221c4ab308904f6396572b5ba8374fbb5b366941c623b0192432180d6e7a2385d842a8a77b8d3dca3072c8adf0861b565ff7c07510f678a2f151f68c
+"@quasar/extras@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@quasar/extras@npm:1.16.0"
+  checksum: f7214a2c04959672c97d0ee71d526008a3d08452e024749c94773450482cd7e54dbf1e1c39aa97073e1c3e74b018bceb7054c7f9756ba994a95200cd82ae120b
   languageName: node
   linkType: hard
 
@@ -3460,7 +3460,7 @@ __metadata:
   dependencies:
     "@babel/eslint-parser": 7.21.3
     "@quasar/app": 3.3.3
-    "@quasar/extras": 1.15.11
+    "@quasar/extras": 1.16.0
     "@types/jest": 28.1.8
     "@types/node": 18.15.9
     "@typescript-eslint/eslint-plugin": 4.33.0
