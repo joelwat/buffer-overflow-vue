@@ -34,7 +34,7 @@ jobs:
         if: ${{ github.event_name == 'pull_request' }}
 
       - name: Run Snyk test
-        uses: snyk/actions@0.3.0
+        uses: snyk/actions@0.4.0
         with:
           command: test
         env:
