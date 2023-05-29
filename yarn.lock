@@ -11195,8 +11195,8 @@ __metadata:
   linkType: hard
 
 "vue-loader@npm:^17.0.0":
-  version: 17.1.1
-  resolution: "vue-loader@npm:17.1.1"
+  version: 17.1.2
+  resolution: "vue-loader@npm:17.1.2"
   dependencies:
     chalk: ^4.1.0
     hash-sum: ^2.0.0
@@ -11208,7 +11208,7 @@ __metadata:
       optional: true
     vue:
       optional: true
-  checksum: 02b28078a6274f51d9cb864efb42ca3a9cc1b5dfb9d2da40e8193272b47fa1c95380cf98ab49ebe231086c534c2c5294f923f3e38630970572446b2fbc1084c4
+  checksum: d176e5b9257a64c27fc52803201b340c5ac1f3b1cc9c9cbd31699e63aa8eab16118cbe1f85689fa8046ec202c3e4d5570ed7b25018315df48e36dea0803338e7
   languageName: node
   linkType: hard
 
