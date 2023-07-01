@@ -55,5 +55,5 @@
     "last 10 iOS versions",
     "last 5 Opera versions"
   ],
-  "packageManager": "yarn@3.6.0"
+  "packageManager": "yarn@3.6.1"
 }
