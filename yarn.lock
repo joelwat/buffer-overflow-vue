@@ -2519,14 +2519,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:2.7.14":
-  version: 2.7.14
-  resolution: "@vue/compiler-sfc@npm:2.7.14"
+"@vue/compiler-sfc@npm:2.7.15":
+  version: 2.7.15
+  resolution: "@vue/compiler-sfc@npm:2.7.15"
   dependencies:
     "@babel/parser": "npm:^7.18.4"
     postcss: "npm:^8.4.14"
     source-map: "npm:^0.6.1"
-  checksum: 29fe06d8da1f8721488468653be671aaa48d63fcd03c47261164cb770b4ecbde1e1455e6affbc9ef062f2729da6988000ba470fc43a2f8a454a61d51af68725d
+  checksum: d5dc7667bea091702657cd9263371d407d708ab0a571da01ebff5870b7800ac709678285c7dc86ae23a0757ff8a5de13dceffc063687be6a7700f58519bd5f57
   languageName: node
   linkType: hard
 
@@ -3650,7 +3650,7 @@ __metadata:
     fork-ts-checker-webpack-plugin: "npm:6.5.3"
     quasar: "npm:2.13.0"
     typescript: "npm:4.9.5"
-    vue: "npm:2.7.14"
+    vue: "npm:2.7.15"
     vue-i18n: "npm:8.28.2"
     vue-router: "npm:3.6.5"
   languageName: unknown
@@ -11625,13 +11625,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:2.7.14":
-  version: 2.7.14
-  resolution: "vue@npm:2.7.14"
+"vue@npm:2.7.15":
+  version: 2.7.15
+  resolution: "vue@npm:2.7.15"
   dependencies:
-    "@vue/compiler-sfc": "npm:2.7.14"
+    "@vue/compiler-sfc": "npm:2.7.15"
     csstype: "npm:^3.1.0"
-  checksum: 8eb326718c445eb5900d08e2f5a2d86b493d475d3a79f49695066092afa3176d2aad4db98682b3c5432f6fffb92719a124b7e137264e71d5b9be14d5193222c6
+  checksum: 92bc7bcef1a54fe6b98409a7094f7c8b1f4b8fcf52469380f130d0d671d581130b1ef8715f0e95020fc5dbffff7f519a0621206484b3fdee5e6319a76073fb0c
   languageName: node
   linkType: hard
 
