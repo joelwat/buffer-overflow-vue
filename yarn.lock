@@ -3632,7 +3632,7 @@ __metadata:
     "@vue/eslint-config-airbnb": "npm:7.0.0"
     "@vue/eslint-config-typescript": "npm:7.0.0"
     axios: "npm:1.6.0"
-    core-js: "npm:3.33.1"
+    core-js: "npm:3.33.2"
     eslint: "npm:8.52.0"
     eslint-config-airbnb-base: "npm:15.0.0"
     eslint-loader: "npm:4.0.2"
@@ -4213,7 +4213,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.33.1, core-js@npm:^3.6.5":
+"core-js@npm:3.33.2":
+  version: 3.33.2
+  resolution: "core-js@npm:3.33.2"
+  checksum: d6a56ad3e134846c805ce936788dd58cb51e861f173ed1f830979735d7865ea6f6a5a437076c36c8d8b842ba0384d052998f160774a8da7712f0f51df60167fe
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.6.5":
   version: 3.33.1
   resolution: "core-js@npm:3.33.1"
   checksum: cf84a4fc430778fcc0195a9b47c9121f46e710eb0b5110ad8884aac504c9480ccbbd33d0b0f9c1936d2a6c8325c510cf8b3ec68863c352e7de91d661f1e0860a
