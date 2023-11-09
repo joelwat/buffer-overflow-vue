@@ -3639,7 +3639,7 @@ __metadata:
     eslint-plugin-import: "npm:2.29.0"
     eslint-plugin-vue: "npm:7.20.0"
     fork-ts-checker-webpack-plugin: "npm:6.5.3"
-    quasar: "npm:2.13.0"
+    quasar: "npm:2.13.1"
     typescript: "npm:4.9.5"
     vue: "npm:2.7.15"
     vue-i18n: "npm:8.28.2"
@@ -9535,10 +9535,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"quasar@npm:2.13.0":
-  version: 2.13.0
-  resolution: "quasar@npm:2.13.0"
-  checksum: 1441f830488d35e959bd4eef7df5e739fafba3baec59b4fa6b2127addfec053a7162685a047aba116baec7b1925c9ce6dcd7356c6725a536d881351b220d7fb8
+"quasar@npm:2.13.1":
+  version: 2.13.1
+  resolution: "quasar@npm:2.13.1"
+  checksum: d51551de653875ef1ed43ef38d401dd42de23268e379ff343ed7af802a17e5b0d9287619966b61cb5c5426d81db2c7c6f46ef8fb93a7cb58b3f4ed62d5b618df
   languageName: node
   linkType: hard
 
