@@ -29,7 +29,7 @@
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "@vue/cli-service": "5.0.8",
-    "@vue/eslint-config-airbnb": "7.0.0",
+    "@vue/eslint-config-airbnb": "7.0.1",
     "@vue/eslint-config-typescript": "7.0.0",
     "@babel/eslint-parser": "7.23.3",
     "eslint": "8.54.0",
