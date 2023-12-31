@@ -359,7 +359,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.18.4, @babel/parser@npm:^7.22.15, @babel/parser@npm:^7.23.6":
+"@babel/parser@npm:^7.22.15, @babel/parser@npm:^7.23.5, @babel/parser@npm:^7.23.6":
   version: 7.23.6
   resolution: "@babel/parser@npm:7.23.6"
   bin:
@@ -2547,14 +2547,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:2.7.15":
-  version: 2.7.15
-  resolution: "@vue/compiler-sfc@npm:2.7.15"
+"@vue/compiler-sfc@npm:2.7.16":
+  version: 2.7.16
+  resolution: "@vue/compiler-sfc@npm:2.7.16"
   dependencies:
-    "@babel/parser": "npm:^7.18.4"
+    "@babel/parser": "npm:^7.23.5"
     postcss: "npm:^8.4.14"
+    prettier: "npm:^1.18.2 || ^2.0.0"
     source-map: "npm:^0.6.1"
-  checksum: d5dc7667bea091702657cd9263371d407d708ab0a571da01ebff5870b7800ac709678285c7dc86ae23a0757ff8a5de13dceffc063687be6a7700f58519bd5f57
+  dependenciesMeta:
+    prettier:
+      optional: true
+  checksum: eaeeef054c939e6cd7591199e2b998ae33d0afd65dc1b5675b54361f0c657c08ae82945791a1a8ca76762e1c1f8e69a00595daf280b854cbc3370ed5c5a34bcd
   languageName: node
   linkType: hard
 
@@ -3652,7 +3656,7 @@ __metadata:
     fork-ts-checker-webpack-plugin: "npm:6.5.3"
     quasar: "npm:2.14.2"
     typescript: "npm:4.9.5"
-    vue: "npm:2.7.15"
+    vue: "npm:2.7.16"
     vue-i18n: "npm:8.28.2"
     vue-router: "npm:3.6.5"
   languageName: unknown
@@ -11520,13 +11524,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:2.7.15":
-  version: 2.7.15
-  resolution: "vue@npm:2.7.15"
+"vue@npm:2.7.16":
+  version: 2.7.16
+  resolution: "vue@npm:2.7.16"
   dependencies:
-    "@vue/compiler-sfc": "npm:2.7.15"
+    "@vue/compiler-sfc": "npm:2.7.16"
     csstype: "npm:^3.1.0"
-  checksum: 92bc7bcef1a54fe6b98409a7094f7c8b1f4b8fcf52469380f130d0d671d581130b1ef8715f0e95020fc5dbffff7f519a0621206484b3fdee5e6319a76073fb0c
+  checksum: 15bf536c131a863d03c42386a4bbc82316262129421ef70e88d1758bcf951446ef51edeff42e3b27d026015330fe73d90155fca270eb5eadd30b0290735f2c3e
   languageName: node
   linkType: hard
 
