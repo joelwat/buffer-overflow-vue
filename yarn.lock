@@ -3351,14 +3351,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:1.6.3":
-  version: 1.6.3
-  resolution: "axios@npm:1.6.3"
+"axios@npm:1.6.4":
+  version: 1.6.4
+  resolution: "axios@npm:1.6.4"
   dependencies:
-    follow-redirects: "npm:^1.15.0"
+    follow-redirects: "npm:^1.15.4"
     form-data: "npm:^4.0.0"
     proxy-from-env: "npm:^1.1.0"
-  checksum: dcc6d982353db33e6893ef01cdf81d0a0548dbd8fba0cb046dc4aee1a6a16226721faa4c2a13b2673d47130509629cdb93bb991b3a2bd4ef17a5ac27a8bba0da
+  checksum: daac697fa1ea9865cb48e9edb7eacd99e8a9214997f2d8e886cb61c380a613e5c270078bfc153ac96206680106c223f005f0e4bf2f3b2ddd88e559ecf970521f
   languageName: node
   linkType: hard
 
@@ -3646,7 +3646,7 @@ __metadata:
     "@vue/composition-api": "npm:1.7.2"
     "@vue/eslint-config-airbnb": "npm:7.0.1"
     "@vue/eslint-config-typescript": "npm:7.0.0"
-    axios: "npm:1.6.3"
+    axios: "npm:1.6.4"
     core-js: "npm:3.35.0"
     eslint: "npm:8.56.0"
     eslint-config-airbnb-base: "npm:15.0.0"
@@ -5897,7 +5897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.4":
   version: 1.15.4
   resolution: "follow-redirects@npm:1.15.4"
   peerDependenciesMeta:
