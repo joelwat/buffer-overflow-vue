@@ -14,7 +14,7 @@
   "dependencies": {
     "@quasar/extras": "1.16.9",
     "@vue/composition-api": "1.7.2",
-    "axios": "1.6.5",
+    "axios": "1.6.6",
     "core-js": "3.35.1",
     "quasar": "2.14.2",
     "typescript": "4.9.5",
