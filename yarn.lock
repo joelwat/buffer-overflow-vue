@@ -2196,12 +2196,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.23":
-  version: 18.19.23
-  resolution: "@types/node@npm:18.19.23"
+"@types/node@npm:18.19.24":
+  version: 18.19.24
+  resolution: "@types/node@npm:18.19.24"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/b945024b919cfc0a25df2da0e95336bae317760a30083e3fc719d3f21710855edc76e260e7fdada53e4d9254429d2c73a1a90850193d818580a73af98977217c
+  checksum: 10c0/2c26e57002f4d77494fcc156ec188b345b8a8f987b9beffae7c17197690e7ec1cd5c67a5902514fe906b91514c0958dddb4bed54d888bd911d10be7c9ed8ed93
   languageName: node
   linkType: hard
 
@@ -3692,7 +3692,7 @@ __metadata:
     "@quasar/app": "npm:3.3.3"
     "@quasar/extras": "npm:1.16.9"
     "@types/jest": "npm:28.1.8"
-    "@types/node": "npm:18.19.23"
+    "@types/node": "npm:18.19.24"
     "@typescript-eslint/eslint-plugin": "npm:4.33.0"
     "@typescript-eslint/parser": "npm:4.33.0"
     "@vue/cli-service": "npm:5.0.8"
